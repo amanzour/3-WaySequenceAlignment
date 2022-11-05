@@ -3,7 +3,8 @@ import numpy as np
 
 # Implementation of a 3-way sequence alignment. The file contains both
 # Recursive and DP implementation. The main function calls both functions 
-#for calculating alignment of three sequences S1, S2, and S3. You may encounter # a delayfor slightly longer sequence, as the recursive solution's complexity is# of the order of factorial. DP implementation runs in cubic time, where n is 
+#for calculating alignment of three sequences S1, S2, and S3. You may encounter
+# a delay for slightly longer sequences, since the recursive solution's complexity is# of the order of factorial. DP implementation runs in cubic time, where n is 
 # the length of one of the sequences.
 
 def sim(chr1,chr2):
